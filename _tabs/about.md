@@ -4,5 +4,9 @@ icon: fas fa-info
 order: 4
 ---
 
+프로그래밍을 공부하는 한 평범한 학생이 운영하는 블로그입니다.
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+혼자서만 아는 것 보다는 다른 사람들과 함께 배워가고 싶은 마음에 만들게 되었으니, 부디 제 지식이 조금이나마 다른 분들에게도 도움이 되었으면 하는 바람입니다!
+
+### **라이센스**
+이 블로그의 모든 게시글들은 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 라이센스에 하에 사용이 허락되어 있습니다.

@@ -17,12 +17,10 @@ timezone: Asia/Seoul
 # --------------------------
 title: Analog Database                          # the main title
 
-tagline: Welcome to the world of 0 and 1!   # it will display as the sub-title
+tagline: Just a little strange database.    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  조금은 특별할지도 모르는 프로그래밍 자료 데이터베이스입니다.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://handbros.github.io'
@@ -46,7 +44,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 # --------------------------
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
+  id: 'G-M7Q4S9WTRL'          # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.

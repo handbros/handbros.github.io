@@ -2,10 +2,11 @@
 
 -
   type: github
-  icon: 'fab fa-github-alt'
+  icon: 'fab fa-github'
 -
-  type: twitter
-  icon: 'fab fa-twitter'
+  type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url:  'https://stackoverflow.com/users/12738496/hyeong-jun-son'     # Fill with your stackoverflow homepage
 -
   type: email
   icon: 'fas fa-envelope'
