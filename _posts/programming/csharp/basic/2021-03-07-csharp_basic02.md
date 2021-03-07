@@ -13,4 +13,26 @@ tags: [c#, .net, ide]
 그런데 어느날 한 프로그래머가 이런 생각을 하게됩니다. '그냥 다 묶어서 하나로 만들어버리는건 어떨까?' 이렇게 해서 등장한 **통합 개발 환경**(이하 'IDE', Integrated Development Environment)은 컴파일러, 디버거, 패키지 관리자, 인텔리 센스 등 수많은 편의기능들을 제공해주며 프로그래머들의 삶에 안락함을 더해줍니다. 아마 IDE가 없었다면 프로그래머들의 수명이 절반은 줄어들지 않았을까요?
 
 # C#을 위한 통합 개발 환경
-그렇다면 C#을 위한 IDE에는 어떤 것들이 있을지 한번 알아보도록 합시다. 
+그렇다면 C#을 위한 IDE에는 어떤 것들이 있을지 한번 알아보도록 합시다.
+
+| 기능 | VisualStudio | Rider |
+|:--------------------|:----------:|:----------:|
+| 멀티플랫폼 지원 | X | O |
+| 유니티 지원 | O | O(강력) |
+| 코드 분석 규칙 개수 | 440+ | 1400+ |
+| 리팩토리 기능 | 150+ | 1300+ |
+| 한국어 지원 | O | X |
+
+개발자의 취향에 따라 다를 수는 있겠지만, 오늘날 가장 많이 쓰이는 C# IDE는 단연 Visual Studio와 Rider라고 할 수 있겠습니다.
+
+C#의 고향이라 할 수 있는 마이크로소프트 사에서 만든 VisualStudio는 많은 제품들의 순정 버전이 그렇듯이 기본에 충실한 편이고, C#의 새로운 기능에 대한 지원이 빠른 편입니다. 반면에 JetBrains 사의 Rider는 마이크로소프트 중심의 C# 생태계에서 살아남은 만큼, 멀티플랫폼과 강력한 수정 기능을 지원하는 등 다양한 추가기능들을 제공하고 있습니다.
+
+각 IDE마다 장단점이 뚜렷한 만큼 자신이 사용할 IDE를 고르는 것은 개발자 개개인의 자유이지만, 이번 강의에서는 VisualStudio를 중심으로 진행하도록 하겠습니다.
+
+# Visual Studio IDE 설치
+우선 아래의 사이트에 접속하여 Visual Studio Community 2019 버전을 다운로드합니다.
+ > VisualStudio : <https://visualstudio.microsoft.com/>
+ 
+
+![Desktop View](https://cdn.jsdelivr.net/gh/handbros/handbros.github.io/assets/img/contents/csharp_basic/csharp_basic02_01.jpg)
+_Visual Studio Installer_
