@@ -2,7 +2,7 @@
 title: C# 기초 강좌 - 2편(개발 환경 구축)
 date: 2021-03-07 00:09:18 +/-1000
 categories: [프로그래밍, C# 기초 강좌]
-tags: [c#, .net, ide]
+tags: [c#, .net, ide, 개발 환경]
 ---
 
 # 통합 개발 환경이란?
@@ -23,7 +23,7 @@ tags: [c#, .net, ide]
 | 리팩토리 기능 | 150+ | 1300+ |
 | 한국어 지원 | O | X |
 
-개발자의 취향에 따라 다를 수는 있겠지만, 오늘날 가장 많이 쓰이는 C# IDE는 단연 Visual Studio와 Rider라고 할 수 있겠습니다.
+개발자의 취향에 따라 다를 수는 있겠지만, 오늘날 가장 많이 쓰이는 C# IDE는 단연 **Visual Studio**와 **Rider**라고 할 수 있겠습니다.
 
 C#의 고향이라 할 수 있는 마이크로소프트 사에서 만든 VisualStudio는 많은 제품들의 순정 버전이 그렇듯이 기본에 충실한 편이고, C#의 새로운 기능에 대한 지원이 빠른 편입니다. 반면에 JetBrains 사의 Rider는 마이크로소프트 중심의 C# 생태계에서 살아남은 만큼, 멀티플랫폼과 강력한 수정 기능을 지원하는 등 다양한 추가기능들을 제공하고 있습니다.
 
@@ -33,6 +33,32 @@ C#의 고향이라 할 수 있는 마이크로소프트 사에서 만든 VisualS
 우선 아래의 사이트에 접속하여 Visual Studio Community 2019 버전을 다운로드합니다.
  > VisualStudio : <https://visualstudio.microsoft.com/>
  
+다운로드 받은 인스톨러를 설치한 뒤 실행시키면 아래와 같은 설치 창이 나타날 것입니다. **'워크로드'** 탭에서는 각 개발 분야에 따라 미리 정의된 도구 모음을 선택할 수 있고, **'개별 구성 요소'** 탭에서는 여러분의 필요에 따라 다른 구성 요소들을 추가하거나 제거할 수도 있습니다.
 
-![Desktop View](https://cdn.jsdelivr.net/gh/handbros/handbros.github.io/assets/img/contents/csharp_basic/csharp_basic02_01.jpg)
+![Desktop View](https://cdn.jsdelivr.net/gh/handbros/blog-images/contents/csharp_basic/csharp_basic02_01.jpg)
 _Visual Studio Installer_
+
+하지만 우리는 C# 개발의 가장 기초가 되는 **콘솔 애플리케이션**을 만들어 볼 예정이므로, .NET 데스크톱 개발 워크로드를 선택하고 설치를 진행해줍시다.
+
+ > **※ 콘솔 애플리케이션(CLI, CUI Application)** : 콘솔 애플리케이션은 텍스트로 이루어진 '콘솔' 내에서 사용자가 지정한 입출력을 처리하는 애플리케이션을 의미함.
+ 
+![Desktop View](https://cdn.jsdelivr.net/gh/handbros/blog-images/contents/csharp_basic/csharp_basic02_02.jpg)
+_Visual Studio Installer_
+
+설치 버튼을 누르면 위와 같이 설치가 진행될 것입니다. 이후 설치가 모두 완료될 때까지 기다려줍시다.
+
+![Desktop View](https://cdn.jsdelivr.net/gh/handbros/blog-images/contents/csharp_basic/csharp_basic02_03.jpg)
+_Visual Studio Installer_
+
+설치가 완료되었다면, 이제 VisualStudio를 실행할 수 있습니다. 인스톨러의 시작 버튼 또는 시작 메뉴에 등록된 바로가기를 통해 VisualStudio를 실행해봅시다.
+
+![Desktop View](https://cdn.jsdelivr.net/gh/handbros/blog-images/contents/csharp_basic/csharp_basic02_04.jpg)
+_Visual Studio Community 2019_
+
+VisualStudio를 실행하면 위와 같은 창이 나타나게됩니다.
+
+다음 강좌부터는 본격적으로 C# 프로젝트를 만들어보고, C#의 문법과 기능들에 대해 차근차근 알아보도록 하겠습니다.
+
+여기까지 따라오시느라 다들 수고하셨고, 앞으로도 더 좋은 강좌로 찾아뵙도록 하겠습니다.
+
+감사합니다.
