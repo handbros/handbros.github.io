@@ -15,7 +15,7 @@ tags: [c#, .net, ide, 개발 환경]
 # C#을 위한 통합 개발 환경
 그렇다면 C#을 위한 IDE에는 어떤 것들이 있을지 한번 알아보도록 합시다.
 
-| 기능 | VisualStudio | Rider |
+| 기능 | Visual Studio | Rider |
 |:--------------------|:----------:|:----------:|
 | 멀티플랫폼 지원 | X | O |
 | 유니티 지원 | O | O(강력) |
@@ -25,13 +25,13 @@ tags: [c#, .net, ide, 개발 환경]
 
 개발자의 취향에 따라 다를 수는 있겠지만, 오늘날 가장 많이 쓰이는 C# IDE는 단연 **Visual Studio**와 **Rider**라고 할 수 있겠습니다.
 
-C#의 고향이라 할 수 있는 마이크로소프트 사에서 만든 VisualStudio는 많은 제품들의 순정 버전이 그렇듯이 기본에 충실한 편이고, C#의 새로운 기능에 대한 지원이 빠른 편입니다. 반면에 JetBrains 사의 Rider는 마이크로소프트 중심의 C# 생태계에서 살아남은 만큼, 멀티플랫폼과 강력한 수정 기능을 지원하는 등 다양한 추가기능들을 제공하고 있습니다.
+C#의 고향이라 할 수 있는 마이크로소프트 사에서 만든 Visual Studio는 많은 제품들의 순정 버전이 그렇듯이 기본에 충실한 편이고, C#의 새로운 기능에 대한 지원이 빠른 편입니다. 반면에 JetBrains 사의 Rider는 마이크로소프트 중심의 C# 생태계에서 살아남은 만큼, 멀티플랫폼과 강력한 수정 기능을 지원하는 등 다양한 추가기능들을 제공하고 있습니다.
 
-각 IDE마다 장단점이 뚜렷한 만큼 자신이 사용할 IDE를 고르는 것은 개발자 개개인의 자유이지만, 이번 강의에서는 VisualStudio를 중심으로 진행하도록 하겠습니다.
+각 IDE마다 장단점이 뚜렷한 만큼 자신이 사용할 IDE를 고르는 것은 개발자 개개인의 자유이지만, 이번 강의에서는 Visual Studio를 중심으로 진행하도록 하겠습니다.
 
 # Visual Studio IDE 설치
 우선 아래의 사이트에 접속하여 Visual Studio Community 2019 버전을 다운로드합니다.
- > VisualStudio : <https://visualstudio.microsoft.com/>
+ > Visual Studio : <https://visualstudio.microsoft.com/>
  
 다운로드 받은 인스톨러를 설치한 뒤 실행시키면 아래와 같은 설치 창이 나타날 것입니다. **'워크로드'** 탭에서는 각 개발 분야에 따라 미리 정의된 도구 모음을 선택할 수 있고, **'개별 구성 요소'** 탭에서는 여러분의 필요에 따라 다른 구성 요소들을 추가하거나 제거할 수도 있습니다.
 
@@ -55,7 +55,9 @@ _Visual Studio Installer_
 ![Desktop View](https://cdn.jsdelivr.net/gh/handbros/blog-images/contents/csharp_basic/csharp_basic02_04.jpg)
 _Visual Studio Community 2019_
 
-VisualStudio를 실행하면 위와 같은 창이 나타나게됩니다.
+Visual Studio를 실행하면 위와 같은 창이 나타나게됩니다. 저는 어두운 테마를 적용해서 검은색으로 되어있지만, 여러분들은 다른 색으로 되어있을 수도 있으니 참고해주시기 바랍니다.
+
+ > **※ 테마 설정 방법** : '도구(T) > 옵션(O) > 환경 > 일반 > 시각적 효과 > 색 테마(C)'에서 수정 가능
 
 다음 강좌부터는 본격적으로 C# 프로젝트를 만들어보고, C#의 문법과 기능들에 대해 차근차근 알아보도록 하겠습니다.
 
